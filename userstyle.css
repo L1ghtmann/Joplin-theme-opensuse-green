@@ -2,3 +2,10 @@
 a {
     color: #119965 !important;
 }
+a:hover {
+	color: #77cc88 !important;
+}
+
+.mce-content-body {
+  background-color: #1e1e1e;
+}

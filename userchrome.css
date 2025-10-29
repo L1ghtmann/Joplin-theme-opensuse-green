@@ -1,5 +1,35 @@
 /* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
 
+/* Note */
+.note-editor-wrapper {
+	background-color: #1e1e1e !important;
+}
+
+.resizableLayoutItem.rli-root{
+	background-color: #1e1e1e !important;
+}
+
+.title-input {
+	background-color: #1e1e1e !important;
+}
+
+.note-title-info-group {
+	background-color: #1e1e1e !important;
+}
+
+.editor-toolbar {
+	background-color: #1e1e1e !important;
+}
+
+/* FIXME */
+.joplin-tinymce div {
+  background-color: #1e1e1e !important;
+}
+
+/* FIXME */
+[class^="tox"] {
+	background-color: #1e1e1e !important;
+}
 
 /* sidebar */
 .rli-sideBar {
@@ -25,6 +55,9 @@
 }
 
 /* notes list */
+.note-list {
+	background-color: #212121 !important;
+}
 .note-list-item > .content.-selected {
     background-color: #119965 !important;
 }
@@ -139,7 +172,10 @@ div.warning-banner {
   background: #585858;
 }
 
-/* L1ghtmann */
+/* Pre-notelist area */
+.cAxSyf {
+    background-color: #212121 !important;
+}
 
 /* Remove unused */
 .sidebar-header-button.-collapseall {
