@@ -17,18 +17,16 @@
   background-color: #77cc88 !important;
 }
 .folder-and-tag-list .list-item-container:active {
-  background-color: #119955 !important;
+  background-color: #119965 !important;
 }
 
-.folder-and-tag-list .list-item-container.selected { 
-  background-color: #119955 !important;
+.folder-and-tag-list .list-item-container.selected {
+  background-color: #119965 !important;
 }
 
 /* notes list */
-
-
 .note-list-item > .content.-selected {
-    background-color: #119955 !important;
+    background-color: #119965 !important;
 }
 .note-list-item:hover {
     background-color: #77cc88 !important;
@@ -37,14 +35,14 @@
 
 /* search icon */
 span.icon-search {
-	color: #119955 !important;
+	color: #119965 !important;
 }
 span.icon-search:hover {
 	color: #77cc88 !important;
 }
 /* clear search icon */
 div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span {
-	color: #119955 !important;
+	color: #119965 !important;
 }
 div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span:hover {
 	color: #77cc88 !important;
@@ -52,7 +50,7 @@ div.resizableLayoutItem.rli-noteList > div > div > div > div > div > button span
 
 /*search result button */
 div.resizableLayoutItem.rli-editor > div > div > div > div > button {
-	background-color: #119955 !important;
+	background-color: #119965 !important;
 }
 div.resizableLayoutItem.rli-editor > div > div > div > div > button:hover {
 	background-color: #77cc88 !important;
@@ -60,7 +58,7 @@ div.resizableLayoutItem.rli-editor > div > div > div > div > button:hover {
 
 /*search close button */
 div.search-bar > div > button > span {
-	color: #119955 !important;
+	color: #119965 !important;
 }
 div.search-bar > div > button > span:hover {
 	color: #77cc88 !important;
@@ -69,7 +67,7 @@ div.search-bar > div > button > span:hover {
 /* sort order buttons */
 button.sort-order-field-button span,
 button.sort-order-reverse-button span {
-	color: #119955 !important;
+	color: #119965 !important;
 }
 button.sort-order-field-button span:hover,
 button.sort-order-reverse-button span:hover {
@@ -78,15 +76,15 @@ button.sort-order-reverse-button span:hover {
 
 
 /* new todo/note buttons */
-button.new-todo-button, 
+button.new-todo-button,
 button.new-note-button {
-	background-color: #119955 !important;
+	background-color: #119965 !important;
 }
 button.new-todo-button:hover,
 button.new-note-button:hover {
 	background-color: #77cc88 !important;
 }
-button.new-todo-button > span, 
+button.new-todo-button > span,
 button.new-note-button > span{
 	color: #1D2020 !important;
 }
@@ -97,9 +95,8 @@ button.new-note-button span:hover {
 }
 
 /* Search results note-name button */
-
 div.note-editor-wrapper > div > div > div > button {
-	background-color: #119955 !important;
+	background-color: #119965 !important;
 	color: #1D2020 !important;
 }
 div.note-editor-wrapper > div > div > div > button:hover {
@@ -114,7 +111,7 @@ div.resizableLayoutItem.rli-editor > div > div > div > div:has(> div.note-search
 
 /* text-area search input-field background */
 div.note-search-bar input {
-    background-color: #242424 !important; 
+    background-color: #242424 !important;
 }
 
 /* tag-bar */
@@ -127,28 +124,9 @@ div.warning-banner {
     background-color: #995511 !important;
 }
 
-/* links */
-div.CodeMirror span.cm-url {
-	color: #77cc88 !important;
-	opacity: 1.0;
-}
-div.CodeMirror span.cm-link-text {
-	color: #77cc88 !important;
-}
-div.CodeMirror span.tok-link {
-    color: #77cc88 !important;
-}
-div.CodeMirror span.cm-url span.tok-url {
-    color: #77cc88 !important;
-    opacity: 1.0;
-}
-div.CodeMirror span.cm-link-text span.tok-url {
-    color: #77cc88 !important;
-}
-
 /* wider text-area scrollbar */
 .CodeMirror ::-webkit-scrollbar-track {
-  background-color: #080808; 
+  background-color: #080808;
 }
 .CodeMirror ::-webkit-scrollbar {
   width: 10px;
@@ -158,6 +136,23 @@ div.CodeMirror span.cm-link-text span.tok-url {
   background: #404040;
 }
 .CodeMirror ::-webkit-scrollbar-thumb:hover {
-  background: #585858; 
+  background: #585858;
+}
+
+/* L1ghtmann */
+
+/* Remove unused */
+.sidebar-header-button.-collapseall {
+	display: none;
+}
+
+/* hide tags footer */
+.editor-status-bar {
+	display: none;
+}
+
+/* links */
+a {
+    color: #119955;
 }
 
