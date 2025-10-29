@@ -1,7 +1,4 @@
 /* links */
-
-div#rendered-md a {
-    color: #77cc88 !important;
-    text-decoration: none !important;
+a {
+    color: #119965 !important;
 }
-
